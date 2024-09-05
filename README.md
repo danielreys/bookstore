@@ -84,7 +84,7 @@ $ curl localhost:8080/books_stock/ae1666d6-6100-4ef0-9037-b45dd0d5bb0e
    - The application will automatically create the necessary schemas in the `bookstore` database.
 
 5. **Test the Endpoints:**
-   - Use Postman (or a similar tool) to test each endpoint. If you wish you can download the collection [Download](https://www.file.io/GAUA/download/98UB3Ujd9UME)
+   - Use Postman (or a similar tool) to test each endpoint. If you wish you can [Download](https://www.file.io/GAUA/download/98UB3Ujd9UME) the collection
    - The base URL for the API is `http://localhost:8080`.
 
 ### Endpoints
