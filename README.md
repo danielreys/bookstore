@@ -62,8 +62,8 @@ $ curl localhost:8080/books_stock/ae1666d6-6100-4ef0-9037-b45dd0d5bb0e
      ```sql
      CREATE DATABASE bookstore;
      ```
-
-2. **Configure Database Credentials:**
+2. **Dump data.sql inserts into your database:** You need that data to start and test the application, it is in `/resources`
+3. **Configure Database Credentials:**
    - Open the `application.properties` or `application.yml` file in the `src/main/resources` directory.
    - Set your PostgreSQL database credentials (username and password) in the configuration file:
      ```properties
@@ -72,7 +72,7 @@ $ curl localhost:8080/books_stock/ae1666d6-6100-4ef0-9037-b45dd0d5bb0e
      spring.datasource.password=your-password
      ```
 
-3. **Compile and Run the Application:**
+4. **Compile and Run the Application:**
    - Navigate to the project directory and compile the project:
      ```bash
      ./mvnw compile
@@ -83,7 +83,7 @@ $ curl localhost:8080/books_stock/ae1666d6-6100-4ef0-9037-b45dd0d5bb0e
      ```
    - The application will automatically create the necessary schemas in the `bookstore` database.
 
-4. **Test the Endpoints:**
+5. **Test the Endpoints:**
    - Use Postman (or a similar tool) to test each endpoint.
    - The base URL for the API is `http://localhost:8080`.
 
