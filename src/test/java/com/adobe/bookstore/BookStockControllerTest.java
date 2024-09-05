@@ -11,7 +11,7 @@ import com.adobe.bookstore.bookstock.BookStock;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-class BookStockResourceTest {
+class BookStockControllerTest {
 
     @LocalServerPort
     private int port;
